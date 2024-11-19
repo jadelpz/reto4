@@ -11,7 +11,7 @@ public class reto4 {
 	 
 	 Funciones.dimeEntero();
      int resultado = Funciones.dimeEntero("Introduce numero");
-	int primo= Funciones1.primo(resultado);
+	int primo= Funciones1.primo(resultado); 
 		int MultImpares = Funciones1.MultImpares;
 	}
 
