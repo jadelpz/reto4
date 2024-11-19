@@ -1,7 +1,8 @@
 package reto4;
 
 public class Funciones1 {
-public static void primo(int num) {
+	//comprobamos si es primo
+public static int primo(int num) {
 	int cont=1;
 	for(int i=2;i<num;i++) {
 		if(num%i==0) {
@@ -12,5 +13,15 @@ public static void primo(int num) {
 		}
 			}
 		
+}
+//Si no es primo sacamos los Multiplos impares
+public static void MultImpares(int num) {
+	System.out.println("los multiplos impares son ");
+	for(int i=2;i<num;i++) {
+		if(num%i==0 || i%2==0) {
+			System.out.println(","+i);
+		}
+	}
+	
 }
 }
